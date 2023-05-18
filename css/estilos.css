@@ -20,6 +20,7 @@ header{
 }
 .hero{
     background-color: rgb(67, 114, 129);
+    display: flex;
 }
 .seccionDos{
     background-color: cadetblue;
