@@ -12,6 +12,11 @@ a{
 ul{
     list-style: none;
 }
+img{
+    width: 25%;
+}
+
+/* estilando los contenedores principales */
 
 header{
     background-color: lightblue;
@@ -24,6 +29,8 @@ header{
 }
 .seccionDos{
     background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
 }
 .seccionVision{
     background-color: coral;
@@ -33,4 +40,12 @@ header{
 }
 .chose{
     background-color: lightslategray;
+}
+
+/* subcontenedores de los principales */
+.seccionDos .contenedorCards{
+    display: flex;
+}
+.seccionDos .alineardeaDos{
+    display: flex;
 }
